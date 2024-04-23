@@ -19,8 +19,9 @@
         text-transform: uppercase;
         font-size: 1rem;
         text-decoration: none;
+        font-family: variables.$font-family;
         font-weight: 500;
-        @include mixins.soft("0.5s");
+        @include mixins.soft(.5s);
         &:hover{
             color: blue;
         }
