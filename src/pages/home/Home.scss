@@ -5,11 +5,16 @@
 @use '../../scss/variables';
 
 .home-bgImg-container{
-    @include mixins.bgImg(100vh, variables.$pathName1);
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../../public/img/model-1.jpg");
+    background-position: center;
+    background-size: cover;   
 }
 
 .home{
-    // border: 2px solid red;
+    background-position: center;
+    background-size: cover;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -26,6 +31,5 @@
             color: red;
             font-weight: 700;
         }
-
     }
 }

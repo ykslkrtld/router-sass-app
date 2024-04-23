@@ -6,7 +6,7 @@
 @use '../../scss/variables';
 
 .about-bgImg-container{
-    // border: 2px solid red;
+    border: 2px solid red;
     @include mixins.bgImg(50vh, variables.$pathName1);
     display: flex;
     flex-direction: column;

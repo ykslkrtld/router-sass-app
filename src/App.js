@@ -16,7 +16,6 @@ import NotFound from "./components/Error/NotFound";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
       <Routes>
         <Route path="/home" element= {<Home/>} />
         <Route path="/about" element={<About/>} />
@@ -24,7 +23,6 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-      <Footer/>
     </BrowserRouter>
   );
 }

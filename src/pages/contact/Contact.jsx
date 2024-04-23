@@ -1,5 +1,10 @@
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+
 const Contact = () => {
   return (
+    <div className="contact-bgImg-container">
+      <Navbar/>
     <main className="contact">
         <h2>Contact Me ...</h2>
         <div className="contact__list">
@@ -17,6 +22,10 @@ const Contact = () => {
           </div>
         </div>
       </main>
+      <footer className="middle">
+      <Footer/>
+    </footer>
+      </div>
   )
 }
 
