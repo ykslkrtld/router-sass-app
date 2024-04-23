@@ -20,7 +20,7 @@
         font-size: 1rem;
         text-decoration: none;
         font-weight: 500;
-        @include mixins.soft(.5s);
+        @include mixins.soft(0.5s);
         &:hover{
             color: blue;
         }
